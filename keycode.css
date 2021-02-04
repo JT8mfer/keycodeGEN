@@ -49,6 +49,6 @@ h2 {
   /* padding-right: 70vh; */
 }
 #container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  justify-content: space-around;
 }

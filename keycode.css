@@ -1,0 +1,54 @@
+body {
+  background: linear-gradient(rgb(150, 71, 245), rgb(96, 160, 246));
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 5px 5px 3px purple;
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+}
+h2 {
+  text-align: center;
+  text-shadow: 5px 5px 3px purple;
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+  padding-top: 50vh;
+}
+
+#which {
+  font-size: 30vh;
+  text-align: center;
+  text-shadow: 5px 5px 3px purple;
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+}
+#key {
+  text-align: center;
+  text-shadow: 5px 5px 3px purple;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10vh;
+  color: whitesmoke;
+  /* padding-top: 10vh; */
+}
+#code {
+  text-align: left;
+  text-shadow: 5px 5px 3px purple;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10vh;
+  color: whitesmoke;
+  border-bottom: 10vh;
+}
+#nums {
+  text-align: right;
+  text-shadow: 5px 5px 3px purple;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10vh;
+  color: whitesmoke;
+  /* padding-right: 70vh; */
+}
+#container {
+  display: flex;
+  justify-content: space-around;
+}
